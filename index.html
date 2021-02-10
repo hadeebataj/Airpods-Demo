@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/scss/style.css">
+    <title>Airpods Website</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <a href="#" class="nav_logo">AirPods</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#" class="nav_link">Description</a></li>
+                    <li class="nav_item"><a href="#l-section" class="nav_link">Specifications</a></li>
+                </ul>
+            </div>
+            <div class="nav_actions">
+                <div class="nav_toggle" id="nav-toggle">
+                    <img src="./assets/icons/bx-chevron-down.svg" alt="">
+                </div>
+                <a href="#" class="nav_button">Buy</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Home -->
+    <main class="l-main bd-grid">
+        <section class="home">
+            <div class="home_data">
+                <h1 class="home_title">Air Pods</h1>
+                <p class="home_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis vero dolor
+                    recusandae eligendi consequatur saepe eum nihil?</p>
+            </div>
+            <div class="home_img">
+                <!-- Image -->
+                <img src="./assets/img/airpod1.png" alt="" class="airpod1">
+                <img src="./assets/img/airpod2.png" alt="" class="airpod2">
+            </div>
+            <div class="home_scroll">
+                <span class="home_scroll-text">Scroll down for more</span>
+                <a href="#l-section"><img src="./assets/icons/bx-mouse.svg" alt="" class="home_scroll-icon"></a>
+            </div>
+        </section>
+
+        <!-- Airpod Details -->
+        <section class="l-section" id="l-section">
+            <div class="details">
+                <div class="details_content">
+                    <div class="details_box">
+                        <span class="details_initial">More than</span>
+                        <h3 class="details_title">24<span> hr</span></h3>
+                        <p class="details_description">of battery life<br> with charging case</p>
+                    </div>
+                    <div class="details_box">
+                        <span class="details_initial">Up to</span>
+                        <h3 class="details_title">5<span> hr</span></h3>
+                        <p class="details_description">of listening time on<br>one charge</p>
+                    </div>
+                    <div class="details_box">
+                        <span class="details_initial">Only</span>
+                        <h3 class="details_title">15<span> min</span></h3>
+                        <p class="details_description">of charging provides<br> up to 3 hours of<br> listening time</p>
+                    </div>
+                </div>
+                <div class="details_img">
+                    <img src="./assets/img/airpods.png" alt="" class="airpods">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+    <!-- TIMELINE MAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+
+    <!-- SCROLLMAGIC -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+
+    <!-- Main -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
